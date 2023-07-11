@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cardGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px; /* Ajusta el espacio entre las tarjetas según tus necesidades */
+    max-width: 900px; /* Ajusta el ancho máximo según tus necesidades */
+    overflow: hidden;
+  }
+  
+  @media (max-width: 900px) {
+    .cardRow {
+      justify-content: center;
+    }
+  }
+  
