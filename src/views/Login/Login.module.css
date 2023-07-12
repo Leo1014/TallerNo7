@@ -27,6 +27,7 @@ body{
     align-items: center;
     padding: 32px;
     border: solid 3px rgb(135, 135, 139);
+    border-radius: 8px;
 }
 
 .send{
